@@ -1,10 +1,12 @@
 {
     "compilerOptions": {
-        "target": "es2015",
+        "target": "es2017",
         "module": "commonjs",
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "outDir": "dist",
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "strict": true,
+        "sourceMap": true
     },
     "include": [
         "src/*"
